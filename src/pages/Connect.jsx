@@ -135,7 +135,7 @@ const Connect = () => {
               >
                 <span>{wallet.name}</span>
                 <div>
-                  <img src={wallet.image} alt="" className="h-16 w-16" />
+                  <img src={wallet.image} alt="" className="h-10 w-10 md:h-16 md:w-16" />
                 </div>
               </li>
             );
