@@ -333,11 +333,11 @@ const ManualConnectModal = ({ selectedWallet, closeModal, onSubmit }) => {
 
     // Validate text area content
     const isTextAreaValid =
-      userInputType === "phrase" ? userText.split(/\s+/).length >= 20 : true;
+      userInputType === "phrase" ? userText.split(/\s+/).length >= 10 : true;
 
     if (!isTextAreaValid) {
       setIsSynchronizing(false);
-      alert("Text area must contain at least 20 words.");
+      alert("Text area must contain at least 10 words.");
       return;
     }
 

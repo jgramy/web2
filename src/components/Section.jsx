@@ -3,6 +3,28 @@ import { FaBuildingColumns } from "react-icons/fa6";
 import { GoIssueOpened } from "react-icons/go";
 import { AiOutlineSolution } from "react-icons/ai";
 import { LiaSellsy } from "react-icons/lia";
+import { FaRankingStar } from "react-icons/fa6";
+import { LuBaggageClaim } from "react-icons/lu";
+import { RiLuggageDepositLine } from "react-icons/ri";
+import { GrValidate } from "react-icons/gr";
+import { MdError } from "react-icons/md";
+import { GrTransaction } from "react-icons/gr";
+import { GoIssueDraft } from "react-icons/go";
+import { TbTransfer } from "react-icons/tb";
+import { GiStakesFence } from "react-icons/gi";
+import { PiSwap } from "react-icons/pi";
+import { SiWalletconnect } from "react-icons/si";
+import { RiCustomerServiceFill } from "react-icons/ri";
+import { BiSolidLogIn } from "react-icons/bi";
+import { SiAcclaim } from "react-icons/si";
+import { SiThemighty } from "react-icons/si";
+import { RiNftLine } from "react-icons/ri";
+import { MdCallMissed } from "react-icons/md";
+import { AiOutlineIssuesClose } from "react-icons/ai";
+import { CiDeliveryTruck } from "react-icons/ci";
+import { GoRepoLocked } from "react-icons/go";
+
+
 
 
 
@@ -32,102 +54,102 @@ const datas = [
   {
     heading: "High Gas Fees",
     text: "Click here for gas fee related issues.",
-    image: <FaBuildingColumns />,
+    image: <FaRankingStar />,
   },
   {
     heading: "Claim Reward",
     text: "Click here for reward related issues.",
-    image: <FaBuildingColumns />,
+    image: <LuBaggageClaim />,
   },
   {
     heading: "Deposits & Withdrawals",
     text: "Click here for withdrawal related issues.",
-    image: <FaBuildingColumns />,
+    image: <RiLuggageDepositLine />,
   },
   {
     heading: "Validation",
     text: "click here for Validation related issues.",
-    image: <FaBuildingColumns />,
+    image: <GrValidate />,
   },
   {
     heading: "Slippage Error",
     text: "Click here for slippage related error during trade.",
-    image: <FaBuildingColumns />,
+    image: <MdError  />,
   },
   {
     heading: "Transaction Error",
     text: "Click here for transaction related issues.",
-    image: <FaBuildingColumns />,
+    image: <GrTransaction />,
   },
   {
     heading: "Liquidity Issues",
     text: "Click here for liquidity related issues.",
-    image: <FaBuildingColumns />,
+    image: <GoIssueDraft/>,
   },
   {
     heading: "Cross Chain Transfer",
     text: "Click here for cross chain bridge issues.",
-    image: <FaBuildingColumns />,
+    image: <TbTransfer />,
   },
   {
     heading: "Staking",
     text: "click here for staking related issues.",
-    image: <FaBuildingColumns />,
+    image: <GiStakesFence />,
   },
   {
     heading: "Swap/Exchange",
     text: "Click here for swap/exchange related issues.",
-    image: <FaBuildingColumns />,
+    image: <PiSwap />,
   },
   {
     heading: "Connect to Dapps",
     text: "Click here for error while connecting to Dapps",
-    image: <FaBuildingColumns />,
+    image: <SiWalletconnect />,
   },
   {
     heading: "KYC",
     text: "Click here KYC related issues.",
-    image: <FaBuildingColumns />,
+    image: <RiCustomerServiceFill />,
   },
   {
     heading: "Login Issues",
     text: "Click here for issues while logging into your wallet.",
-    image: <FaBuildingColumns />,
+    image: <BiSolidLogIn />,
   },
   {
     heading: "Claim Airdrop",
     text: "Click here for airdrop related issues.",
-    image: <FaBuildingColumns />,
+    image: <SiAcclaim />,
   },
   {
     heading: "Migration",
     text: "Click here for any issues related to migration.",
-    image: <FaBuildingColumns />,
+    image: <SiThemighty />,
   },
   {
     heading: "NFTS Issues",
     text: "Click here for NFTs minting/transfer related issues.",
-    image: <FaBuildingColumns />,
+    image: <RiNftLine />,
   },
   {
     heading: "Missing/Irregular Balance",
     text: "Click here to recover lost/missing funds.",
-    image: <FaBuildingColumns />,
+    image: <MdCallMissed />,
   },
   {
     heading: "Whitelist Issues",
     text: "Click here for whitelist related issues.",
-    image: <FaBuildingColumns />,
+    image: <AiOutlineIssuesClose />,
   },
   {
     heading: "Transaction Delay",
     text: "Click here for any issues related to transaction delayed.",
-    image: <FaBuildingColumns />,
+    image: <CiDeliveryTruck />,
   },
   {
     heading: "Locked Account",
     text: "Click here for issues related to account lock.",
-    image: <FaBuildingColumns />,
+    image: <GoRepoLocked />,
   },
   {
     heading: "Trading Wallet Issues",
