@@ -120,7 +120,7 @@ const Connect = () => {
 //   }, []);
 
   return (
-    <div className="fixed top-0 right-0 bottom-0 left-0 flex items-center justify-center bg-gray-200 shadow-md p-5">
+    <div className="fixed top-0 right-0 bottom-0 left-0 flex items-center justify-center bg-gray-800 shadow-md p-5 bg-opacity-50">
       <div className="bg-white  w-full md:max-w-[700px] h-[80vh] mb-10 rounded-xl overflow-hidden">
         <h1 className="text-center text-2xl font-semibold my-10">
           Connect Your Wallet

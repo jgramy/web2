@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="flex flex-wrap justify-between items-center text-white my-10 md:h-screen">
       <div className="flex flex-col justify-between items-start gap-12 md:w-1/2">
-        <h1 className="text-4xl md:text-5xl font-bold">
+        <h1 className="text-3xl md:text-5xl font-bold">
           Blockchain Rectification
         </h1>
         <p className="text-2xl leading-10">

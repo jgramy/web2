@@ -29,8 +29,8 @@ const FAQ = () => {
 
 
    <div className="flex flex-col justify-center h-screen">
-    <h1 className="text-4xl md:text-5xl font-semibold mb-7 text-white">Frquently Asked Questions</h1>
-     <div className="max-w-full mt-8 g">
+    <h1 className="text-3xl md:text-5xl font-semibold md:mb-7 mb-3 text-white">Frquently Asked Questions</h1>
+     <div className="max-w-full mt-8 ">
       {faqData.map((faq, index) => (
         <div key={index} className="mb-8">
           <div

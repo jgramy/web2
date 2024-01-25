@@ -52,9 +52,9 @@ const ConnectModal = ({
   showManualConnectModal,
 }) => {
   return (
-    <div className="fixed top-0 right-0 bottom-0 left-0 h-screen flex items-center justify-center bg-gray-200 shadow-md p-5">
+    <div className="fixed top-0 right-0 bottom-0 left-0 h-screen flex items-center justify-center bg-gray-800 bg-opacity-50 shadow-md p-5">
     <div className="bg-white  w-full md:max-w-[700px]  mb-10 rounded-xl overflow-hidden p-5">
-        <span className="border border-red-600 inline-flex items-center gap-10 w-full p-5 rounded-xl text-2xl">
+        <span className="border border-red-600 inline-flex items-center md:gap-10 gap-3 w-full p-5 rounded-xl text-xl md:text-2xl">
           {connecting ? (
             <p className="text-center ">
               Initializing{Array(dots).fill(".").join("")}
@@ -74,7 +74,7 @@ const ConnectModal = ({
             </h2>
             <p>Easy-to-use browser extension</p>
           </span>
-          <img src={selectedWallet.image} alt="" className="w-14 h-14" />
+          <img src={selectedWallet.image} alt="" className="w-10 h-10 md:w-14 md:h-14" />
         </div>
 
         <button

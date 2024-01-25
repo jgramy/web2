@@ -3,7 +3,7 @@ import React from "react";
 const Chart = () => {
   return (
     <div className="text-white h-screen my-10">
-        <h1 className="text-4xl md:text-5xl font-semibold mb-7">Price Chart</h1>
+        <h1 className="text-3xl md:text-5xl font-semibold mb-7">Price Chart</h1>
       <div>
         <iframe
           title="Coinlib Widget"
