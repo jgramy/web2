@@ -1,5 +1,11 @@
 import React from "react";
 import { FaBuildingColumns } from "react-icons/fa6";
+import { GoIssueOpened } from "react-icons/go";
+import { AiOutlineSolution } from "react-icons/ai";
+import { LiaSellsy } from "react-icons/lia";
+
+
+
 import { Link } from "react-router-dom";
 
 const datas = [
@@ -11,17 +17,17 @@ const datas = [
   {
     heading: "General Issues",
     text: "Click here for general related issues",
-    image: <FaBuildingColumns />,
+    image: <GoIssueOpened />,
   },
   {
     heading: "Rectification",
     text: "Click here to rectify issues",
-    image: <FaBuildingColumns />,
+    image: <AiOutlineSolution />,
   },
   {
     heading: "Buy and Sell",
     text: "Click here for to buy and sell tokens.",
-    image: <FaBuildingColumns />,
+    image: <LiaSellsy/>,
   },
   {
     heading: "High Gas Fees",
