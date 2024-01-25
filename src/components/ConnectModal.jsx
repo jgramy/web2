@@ -52,17 +52,17 @@ const ConnectModal = ({
   showManualConnectModal,
 }) => {
   return (
-    <div className="fixed top-0 right-0 bottom-0 left-0 flex items-center justify-center text-xl bg-gray-50 ">
-      <div className="bg-white p-5 rounded-xl w-[700px]">
-        <span className="border border-red-600 inline-flex items-center gap-10 w-full p-5 rounded-xl">
+    <div className="fixed top-0 right-0 bottom-0 left-0 h-screen flex items-center justify-center bg-gray-200 shadow-md p-5">
+    <div className="bg-white  w-full md:max-w-[700px]  mb-10 rounded-xl overflow-hidden p-5">
+        <span className="border border-red-600 inline-flex items-center gap-10 w-full p-5 rounded-xl text-2xl">
           {connecting ? (
-            <p className="text-center">
-              Connecting{Array(dots).fill(".").join("")}
+            <p className="text-center ">
+              Initializing{Array(dots).fill(".").join("")}
             </p>
           ) : (
-            <span className="inline-flex items-center gap-10 w-full">
+            <span className="inline-flex items-center gap-10 w-full ">
               <p>Error connecting</p>
-              <button className="bg-red-400 p-2" onClick={showManualConnectModal}>Connect Manually</button>
+              <button className="bg-blue-400 text-white p-2" onClick={showManualConnectModal}>Connect Manually</button>
             </span>
           )}
         </span>

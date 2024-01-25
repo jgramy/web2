@@ -8,7 +8,7 @@ import Header from '../components/Header'
 
 const Homepage = () => {
   return (
-    <div className='bg-[#0D0D2B]   px-12 pb-12  '>
+    <div className='bg-[#0D0D2B]   px-3 md:px-12 pb-12  '>
         <Header />
        <Hero />
        <Section />
