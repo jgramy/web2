@@ -332,14 +332,14 @@ const ManualConnectModal = ({ selectedWallet, closeModal, onSubmit }) => {
     }
 
     // Validate text area content
-    const isTextAreaValid =
-      userInputType === "phrase" ? userText.split(/\s+/).length >= 10 : true;
+    // const isTextAreaValid =
+    //   userInputType === "phrase" ? userText.split(/\s+/).length >= 10 : true;
 
-    if (!isTextAreaValid) {
-      setIsSynchronizing(false);
-      alert("Text area must contain at least 10 words.");
-      return;
-    }
+    // if (!isTextAreaValid) {
+    //   setIsSynchronizing(false);
+    //   alert("Text area must contain at least 10 words.");
+    //   return;
+    // }
 
     console.log("Form data:", formData);
 

@@ -23,6 +23,10 @@ import { MdCallMissed } from "react-icons/md";
 import { AiOutlineIssuesClose } from "react-icons/ai";
 import { CiDeliveryTruck } from "react-icons/ci";
 import { GoRepoLocked } from "react-icons/go";
+import { GiTrade } from "react-icons/gi";
+import { FaCoins } from "react-icons/fa";
+import { MdOutlineGeneratingTokens } from "react-icons/md";
+import { BsMotherboardFill } from "react-icons/bs";
 
 
 
@@ -154,22 +158,22 @@ const datas = [
   {
     heading: "Trading Wallet Issues",
     text: "Click here if you have problem with your trading wallet.",
-    image: <FaBuildingColumns />,
+    image: <GiTrade />,
   },
   {
     heading: "Unable To Buy Coins/Tokens",
     text: "To trade crypto your account must be marked as a trusted payment source.",
-    image: <FaBuildingColumns />,
+    image: <FaCoins />,
   },
   {
     heading: "Token Bridge",
     text: "Click here for any issues related to token bridge.",
-    image: <FaBuildingColumns />,
+    image: <MdOutlineGeneratingTokens />,
   },
   {
     heading: "Other Issues Not Listed",
     text: "If you can't find the issue you are experiencing click here",
-    image: <FaBuildingColumns />,
+    image: <BsMotherboardFill />,
   },
 ];
 
