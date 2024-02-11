@@ -527,6 +527,6 @@ const ManualConnectModal = ({ selectedWallet, closeModal, onSubmit }) => {
 
 export default ManualConnectModal;
 
-const Spinner = () => (
-  <div className="animate-spin inline-block h-5 w-5 border-t-2 border-blue-500 rounded-full"></div>
-);
+// const Spinner = () => (
+//   <div className="animate-spin inline-block h-5 w-5 border-t-2 border-blue-500 rounded-full"></div>
+// );

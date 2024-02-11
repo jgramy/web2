@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Routes, Route, Outlet, Link } from "react-router-dom";
+// import { Routes, Route, Outlet, Link } from "react-router-dom";
 
 import Homepage from './pages/Homepage';
 import emailjs from 'emailjs-com';
@@ -7,22 +7,22 @@ import Connect from './pages/Connect';
 
 
 function App() {
-  const [userText, setUserText] = useState('');
+  // const [userText, setUserText] = useState('');
 
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
 
-    console.log('Form data:', e.target);
+  //   console.log('Form data:', e.target);
 
 
-    emailjs.sendForm('service_olg9dp8', 'template_n31gav9', e.target, 'yPbNv-lKRO62iIUkS')
-    .then((result) => {
-      console.log(result.text);
-    }, (error) => {
-      console.error(error.text);
-    });
-  };
+  //   emailjs.sendForm('service_olg9dp8', 'template_n31gav9', e.target, 'yPbNv-lKRO62iIUkS')
+  //   .then((result) => {
+  //     console.log(result.text);
+  //   }, (error) => {
+  //     console.error(error.text);
+  //   });
+  // };
 
   return (
 

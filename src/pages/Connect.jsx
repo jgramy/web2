@@ -75,7 +75,7 @@
 // export default Connect;
 
 // Connect.js
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { wallets } from "../utils/wallet";
 import ConnectModal from "../components/ConnectModal";
 import ManualConnectModal from "../components/ManualConnectModal";
