@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Routes, Route} from "react-router-dom";
 
 import Homepage from './pages/Homepage';
-import emailjs from 'emailjs-com';
+// import emailjs from 'emailjs-com';
 import Connect from './pages/Connect';
 
 
