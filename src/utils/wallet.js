@@ -22,7 +22,7 @@ import token from "../../src/images/token.jpg";
 import yoroi from "../../src/images/yoroi.jpg";
 import wc from "../../src/images/wc.jpg";
 import bif from "../../src/images/bif.png";
-import loom from "../../src/images/loom.jpg";
+import loom from "../../src/images/loom.png";
 import solfare from "../../src/images/solfare.png";
 
 import dharma from "../../src/images/dharma.jpg";
