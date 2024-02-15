@@ -54,8 +54,7 @@ export const wallets = [
         name: "Blockchain",
         image: blockchain,
     },
-    { name: "Keplr", image: keplr },
-    { name: "Solana", image: solana },
+
 
     { name: "Agent ", image: agent },
     { name: "Yoroi", image: yoroi },
