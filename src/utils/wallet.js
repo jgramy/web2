@@ -56,10 +56,7 @@ export const wallets = [
     },
     { name: "Keplr", image: keplr },
     { name: "Solana", image: solana },
-    {
-        name: "Blockchain",
-        image: blockchain,
-    },
+
     { name: "Agent ", image: agent },
     { name: "Yoroi", image: yoroi },
     { name: "Onto", image: onto },
