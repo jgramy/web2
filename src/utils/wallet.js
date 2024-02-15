@@ -23,7 +23,7 @@ import yoroi from "../../src/images/yoroi.jpg";
 import wc from "../../src/images/wc.jpg";
 import bif from "../../src/images/bif.png";
 import loom from "../../src/images/loom.png";
-import solfare from "../../src/images/solfare.png";
+import solflare from "../../src/images/solflare.png";
 
 import dharma from "../../src/images/dharma.jpg";
 
@@ -63,6 +63,6 @@ export const wallets = [
     { name: "Edge", image: edge },
     { name: "Bifrost", image: bif },
     { name: "Loom", image: loom },
-    { name: "Solfare", image: solfare },
+    { name: "Solflare", image: solflare },
     { name: "Dharma", image: dharma },
 ];
