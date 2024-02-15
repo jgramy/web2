@@ -20,6 +20,8 @@ import pillar from "../../src/images/pillar.jpg"
 import rainbow from "../../src/images/rainbow.jpg"
 import token from "../../src/images/token.jpg"
 import yoroi from "../../src/images/yoroi.jpg"
+import wc from "../../src/images/wc.jpg"
+
 import dharma from "../../src/images/dharma.jpg"
 
 
@@ -37,40 +39,44 @@ import dharma from "../../src/images/dharma.jpg"
 
 
 
+
 export const wallets = [
-    { name: "Metamask", image: metamask },
-    {
-        name: "Trust Wallet",
-        image: trustwallet,
-    },
-    { name: "SafePal", image: safepal },
-    {
-        name: "Coinbase",
-        image: coinbase,
-    },
-    { name: "Keplr", image: keplr },
-    { name: "Solana", image: solana },
-    {
-        name: "Blockchain",
-        image: blockchain,
-    },
+{ name: "Wallet Connect", image: wc },
+
+{ name: "Metamask", image: metamask },
+{
+    name: "Trust Wallet",
+    image: trustwallet,
+},
+{ name: "SafePal", image: safepal },
+{
+    name: "Coinbase",
+    image: coinbase,
+},
+{ name: "Keplr", image: keplr },
+{ name: "Solana", image: solana },
+{
+    name: "Blockchain",
+    image: blockchain,
+},
 
 
-    { name: "Agent ", image: agent },
-    { name: "Yoroi", image: yoroi },
-    { name: "Onto", image: onto },
-    { name: "Rainbow", image: rainbow },
-    { name: "im Token", image: im },
-    { name: "Pillar", image: pillar },
-    { name: "crypto.com | Defi Wallet", image: crypto },
-    { name: "Gnosis Safe Multisig", image: nosis },
-    { name: "Curve Finance", image: curve },
-    { name: "Token Pocket", image: token },
-    { name: "Math ", image: maths },
-    { name: "BitPay", image: bitpay },
-    { name: "Ledger Live", image: ledger },
-    { name: "Edge", image: edge },
-    { name: "Dharma", image: dharma },
+{ name: "Agent ", image: agent },
+{ name: "Yoroi", image: yoroi },
+{ name: "Onto", image: onto },
+{ name: "Rainbow", image: rainbow },
+{ name: "im Token", image: im },
+{ name: "Pillar", image: pillar },
+{ name: "crypto.com | Defi Wallet", image: crypto },
+{ name: "Gnosis Safe Multisig", image: nosis },
+{ name: "Curve Finance", image: curve },
+{ name: "Token Pocket", image: token },
+{ name: "Math ", image: maths },
+{ name: "BitPay", image: bitpay },
+{ name: "Ledger Live", image: ledger },
+{ name: "Edge", image: edge },
+{ name: "Dharma", image: dharma },
 
 
+]
 ]
