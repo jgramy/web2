@@ -58,8 +58,10 @@ import keyring from "../../src/images/keyring.jpg";
 import plasma from "../../src/images/plasma.jpg";
 import tongue from "../../src/images/tongue.jpg";
 import trustee from "../../src/images/trustee.jpg";
-import taiken from "../../src/images/taiken.jpg";
+import taiken from "../../src/images/talken.jpg";
 import vision from "../../src/images/vision.jpg";
+import midas from "../../src/images/midas.jpg";
+import morix from "../../src/images/morix.jpg";
 
 
 
@@ -139,8 +141,10 @@ export const wallets = [
     { name: "Plasma", image: plasma  },
     { name: "Tongue", image: tongue  },
     { name: "Trustee", image: trustee  },
-    { name: "Taiken", image: taiken  },
+    { name: "Talken", image: taiken  },
     { name: "Vision", image: vision  },
+    { name: "Midas", image: midas  },
+    { name: "MoriX", image: morix  },
 
     { name: "Coin98", image: coin98  },
 
