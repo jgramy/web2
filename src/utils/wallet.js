@@ -47,7 +47,19 @@ import fleek from "../../src/images/fleek.png";
 import etherscan from "../../src/images/etherscan.jpg";
 import bsc from "../../src/images/bsc.jpg";
 import binancedex from "../../src/images/binancedex.png";
-
+import at from "../../src/images/at.jpg";
+import coin98 from "../../src/images/coin98.jpg";
+import defiant from "../../src/images/defiant.jpg";
+import dok from "../../src/images/dok.jpg";
+import ellipal from "../../src/images/ellipal.jpg";
+import flare from "../../src/images/flare.jpg";
+import guard from "../../src/images/guard.jpg";
+import keyring from "../../src/images/keyring.jpg";
+import plasma from "../../src/images/plasma.jpg";
+import tongue from "../../src/images/tongue.jpg";
+import trustee from "../../src/images/trustee.jpg";
+import taiken from "../../src/images/taiken.jpg";
+import vision from "../../src/images/vision.jpg";
 
 
 
@@ -76,6 +88,7 @@ export const wallets = [
         name: "Blockchain",
         image: blockchain,
     },
+    { name: "Binance Smart chain", image: bsc },
 
     { name: "Agent ", image: agent },
     { name: "Yoroi", image: yoroi },
@@ -116,8 +129,20 @@ export const wallets = [
     { name: "Infinity", image: infinity },
     { name: "My key", image: mykey },
     { name: "Opensea", image: opensea },
+    { name: "Atomic", image: at },
+    { name: "Defiant", image: defiant  },
+    { name: "Dok", image: dok  },
+    { name: "Ellipal", image: ellipal  },
+    { name: "Flare", image: flare  },
+    { name: "Guard", image: guard  },
+    { name: "Keyring", image: keyring  },
+    { name: "Plasma", image: plasma  },
+    { name: "Tongue", image: tongue  },
+    { name: "Trustee", image: trustee  },
+    { name: "Taiken", image: taiken  },
+    { name: "Vision", image: vision  },
 
-    { name: "Binance Smart chain", image: bsc },
+    { name: "Coin98", image: coin98  },
 
 
 
