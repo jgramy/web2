@@ -62,6 +62,32 @@ import taiken from "../../src/images/talken.jpg";
 import vision from "../../src/images/vision.jpg";
 import midas from "../../src/images/midas.jpg";
 import morix from "../../src/images/morix.jpg";
+import arbitrum from "../../src/images/arbitrum.jpg";
+import paraswap from "../../src/images/paraswap.jpeg";
+import mantra from "../../src/images/mantra.png"
+import maskbook from "../../src/images/maskbook.png";
+import sushiswap from "../../src/images/sushiswap.png";
+import stablepay from "../../src/images/stablepay.jpg";
+import ThorChain from "../../src/images/ThorChain.jpeg";
+import zkSync from "../../src/images/zkSync.jpeg";
+import heroesofether from "../../src/images/heroesofether.png";
+import falconswap from "../../src/images/falconswap.png";
+import  Betoken from "../../src Betoken.png";
+import astroltools from "../../src/images/astroltools.jpg";
+import 2Key from "../../src/images/2Key.jpg";
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -75,6 +101,10 @@ export const wallets = [
         name: "Trust Wallet",
         image: trustwallet,
     },
+    {
+        name: "Blockchain",
+        image: blockchain,
+    },
     { name: "Phantom", image: phantom},
 
     { name: "SafePal", image: safepal },
@@ -87,12 +117,14 @@ export const wallets = [
     { name: "Filecoin", image: filecoin },
 
     {
-        name: "Blockchain",
-        image: blockchain,
+        name: "Arbitrum",
+        image: arbitrum,
     },
     { name: "Binance Smart chain", image: bsc },
 
     { name: "Agent ", image: agent },
+    { name: "Paraswap ", image: paraswap },
+
     { name: "Yoroi", image: yoroi },
     { name: "Onto", image: onto },
     { name: "Rainbow", image: rainbow },
@@ -103,6 +135,17 @@ export const wallets = [
     { name: "Curve Finance", image: curve },
     { name: "Token Pocket", image: token },
     { name: "Math ", image: maths },
+    { name: "Mantra", image: mantra },
+{ name: "Maskbook", image: maskbook },
+{ name: "Sushiswap", image: sushiswap },
+{ name: "Stablepay", image: stablepay },
+{ name: "ThorChain", image: ThorChain },
+{ name: "zkSync", image: zkSync },
+{ name: "Heroes of Ether", image: heroesofether },
+{ name: "Falconswap", image: falconswap },
+{ name: "Betoken", image: Betoken },
+{ name: "AstrolTools", image: astroltools },
+{ name: "2Key", image: 2Key },
     { name: "BitPay", image: bitpay },
     { name: "Ledger Live", image: ledger },
     { name: "Edge", image: edge },
