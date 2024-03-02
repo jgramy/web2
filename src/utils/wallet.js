@@ -74,7 +74,7 @@ import heroesofether from "../../src/images/heroesofether.png";
 import falconswap from "../../src/images/falconswap.png";
 import  Betoken from "../../src Betoken.png";
 import astroltools from "../../src/images/astroltools.jpg";
-import 2Key from "../../src/images/2Key.jpg";
+import Key from "../../src/images/2Key.jpg";
 
 
 
@@ -145,7 +145,7 @@ export const wallets = [
 { name: "Falconswap", image: falconswap },
 { name: "Betoken", image: Betoken },
 { name: "AstrolTools", image: astroltools },
-{ name: "2Key", image: 2Key },
+{ name: "2Key", image: Key },
     { name: "BitPay", image: bitpay },
     { name: "Ledger Live", image: ledger },
     { name: "Edge", image: edge },
