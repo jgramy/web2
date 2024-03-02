@@ -73,7 +73,7 @@ import zkSync from "../../src/images/zkSync.jpeg";
 import heroesofether from "../../src/images/heroesofether.png";
 import falconswap from "../../src/images/falconswap.png";
 import  Betoken from "../../src/images/Betoken.png";
-import astroltools from "../../src/images/astroltools.jpg";
+import astroltools from "../../src/images/astroltool.jpg";
 import Key from "../../src/images/2Key.jpg";
 
 
