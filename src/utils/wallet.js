@@ -83,7 +83,7 @@ import Uniswap from "../../src/images/Uniswap.jpeg";
 import Unagii from "../../src/images/Unagii.png";
 import Totle from "../../src/images/Totle.jpeg";
 import TorusWallet from "../../src/images/TorusWallet.jpg";
-import TokomakNetwork from "../../src/images/TokomakNetwork.png";
+import TokomakNetwork from "../../src/images/TokamakNetwork.png";
 import Tokenset from "../../src/images/Tokenset.jpeg";
 import SwapX from "../../src/images/SwapX.jpeg";
 import SuperRare from "../../src/images/SuperRare.jpeg";
