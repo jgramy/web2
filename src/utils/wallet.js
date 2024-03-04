@@ -87,7 +87,7 @@ import TokomakNetwork from "../../src/images/TokamakNetwork.png";
 import Tokenset from "../../src/images/Tokenset.jpeg";
 import SwapX from "../../src/images/SwapX.jpeg";
 import SuperRare from "../../src/images/SuperRare.jpeg";
-import StreamR from "../../src/images/StreamR.jpg";
+import StreamR from "../../src/images/Streamr.jpg";
 import Starname from "../../src/images/Stamine.png";
 import Space from "../../src/images/SSpace.png";
 import Snapshot from "../../src/images/Snapshot.png";
