@@ -75,23 +75,70 @@ import falconswap from "../../src/images/falconswap.png";
 import  Betoken from "../../src/images/Betoken.png";
 import astroltools from "../../src/images/astroltool.jpg";
 import Key from "../../src/images/2Key.jpg";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import dharma from "../../src/images/dharma.jpg";
+import zLot from "../../src/images/zLot.jpg";
+import Zerion from "../../src/images/Zerion.png";
+import Yearn from "../../src/images/Yearn.png";
+import Uniswap from "../../src/images/Uniswap.jpeg";
+import Unagii from "../../src/images/Unagii.png";
+import Totle from "../../src/images/Totle.jpeg";
+import TorusWallet from "../../src/images/TorusWallet.jpg";
+import TokomakNetwork from "../../src/images/TokomakNetwork.png";
+import Tokenset from "../../src/images/Tokenset.jpeg";
+import SwapX from "../../src/images/SwapX.jpeg";
+import SuperRare from "../../src/images/SuperRare.jpeg";
+import StreamR from "../../src/images/StreamR.jpg";
+import Starname from "../../src/images/Stamine.png";
+import Space from "../../src/images/SSpace.png";
+import Snapshot from "../../src/images/Snapshot.png";
+import ShellExchange from "../../src/images/ShellExchange.jpg";
+import Sabiler from "../../src/images/Sabiler.jpeg";
+import Rarible from "../../src/images/Rarible.png";
+import PoolTogether from "../../src/images/PoolTogether.png";
+import OrchidProtocol from "../../src/images/OrchidProtocol.png";
+import OctoFi from "../../src/images/OctoFi.jpeg";
+import OceanProtocol from "../../src/images/OceanProtocol.png";
+import Oasis from "../../src/images/Oasis.png";
+import Nash from "../../src/images/Nash.jpeg";
+import Mycrypto from "../../src/images/mycrypto.png";
+import MushroomFinance from "../../src/images/MushroomFinance.jpg";
+import Mintbase from "../../src/images/Mintbase.jpg";
+import Mesa from "../../src/images/Mesa.png";
+import Melon from "../../src/images/Melon.png";
+import MCDEX from "../../src/images/MCDEX.png";
+import MaticNetwork from "../../src/images/MaticNetwork.jpeg";
+import Matcha from "../../src/images/Matcha.jpeg";
+import Linkdrop from "../../src/images/Linkdrop.png";
+import KnownOrigin from "../../src/images/KnownOrigin.jpeg";
+import Kickback from "../../src/images/Kickback.jpeg";
+import InvoiceBuild from "../../src/images/InvoiceBuild.png";
+import InstaDapp from "../../src/images/InstaDapp.jpeg";
+import Hegic from "../../src/images/Hegic.jpeg";
+import Gelato from "../../src/images/Gelato.jpg";
+import Furucombo from "../../src/images/Furucombo.png";
+import Escaroo from "../../src/images/Escaroo.png";
+import Equal from "../../src/images/Equal.jpg";
+import dydx from "../../src/images/dydx.jpeg";
+import dodo from "../../src/images/dodo.png";
+import DeBank from "../../src/images/DeBank.jpeg";
+import DDex from "../../src/images/DDex.png";
+import DatamineNetwork from "../../src/images/DatamineNetwork.jpg";
+import DappRadar from "../../src/images/DappRadar.png";
+import CreamFinance from "../../src/images/CreamFinance.jpeg";
+import Compound from "../../src/images/Compound.png";
+import Clovers from "../../src/images/Clovers.png";
+import Chainsfr from "../../src/images/Chainsfr.png";
+import BulkSender from "../../src/images/BulkSender.png";
+import BancorWallet from "../../src/images/BancorWallet.png";
+import BambooRelay from "../../src/images/BambooRelay.png";
+import balanced from "../../src/images/balanced.jpg";
+import Ankr from "../../src/images/Ankr.jpg";
+import Affogatto from "../../src/images/Affogatto.png";
+import AdexNetwork from "../../src/images/AdexNetwork.jpeg";
+import ActusProtocol from "../../src/images/ActusProtocol.jpg";
+import Mph from "../../src/images/88Mph.jpg";
+
+
 
 export const wallets = [
     { name: "Wallet Connect", image: wc },
@@ -106,6 +153,7 @@ export const wallets = [
         image: blockchain,
     },
     { name: "Phantom", image: phantom},
+    { name: "Uniswap", image: Uniswap },
 
     { name: "SafePal", image: safepal },
     {
@@ -130,6 +178,24 @@ export const wallets = [
     { name: "Rainbow", image: rainbow },
     { name: "im Token", image: im },
     { name: "Pillar", image: pillar },
+    { name: "zLot", image: zLot },
+{ name: "Zerion", image: Zerion },
+{ name: "Yearn", image: Yearn },
+{ name: "Unagii", image: Unagii },
+{ name: "Totle", image: Totle },
+{ name: "Torus", image: TorusWallet },
+{ name: "Tokomak Network", image: TokomakNetwork },
+{ name: "Tokenset", image: Tokenset },
+{ name: "SwapX", image: SwapX },
+{ name: "Super Rare", image: SuperRare },
+{ name: "StreamR", image: StreamR },
+{ name: "Starname", image: Starname },
+{ name: "Space", image: Space },
+{ name: "Snapshot", image: Snapshot },
+{ name: "Shell Exchange", image: ShellExchange },
+{ name: "Sabiler", image: Sabiler },
+{ name: "Rarible", image: Rarible },
+{ name: "Pool Together", image: PoolTogether },
     { name: "crypto.com | Defi Wallet", image: crypto },
     { name: "Gnosis Safe Multisig", image: nosis },
     { name: "Curve Finance", image: curve },
@@ -153,6 +219,20 @@ export const wallets = [
     { name: "Loom", image: loom },
     { name: "Solflare", image: solflare },
     { name: "Dharma", image: dharma },
+    { name: "Orchid PrOrchid", image: OrchidProtocol },
+{ name: "OctoFi", image:OctoFi },
+{ name: "OceanProtocol", image:OceanProtocol },
+{ name: "Oasis", image: Oasis },
+{ name: "Nash", image: Nash },
+{ name: "MyCrypto", image: Mycrypto },
+{ name: "Mushroom Finance", image: MushroomFinance },
+{ name: "Mintbase", image: Mintbase },
+{ name: "Mesa", image: Mesa },
+{ name: "Melon", image: Melon },
+{ name: "MCDEX", image: MCDEX },
+{ name: "Matic Network", image: MaticNetwork },
+{ name: "Matcha", image: Matcha },
+{ name: "Linkdrop", image: Linkdrop },
     { name: "Huobi", image: huobi },
     { name: "Eidoo", image: eidoo },
     { name: "Inch", image: inch },
@@ -190,8 +270,34 @@ export const wallets = [
     { name: "MoriX", image: morix  },
 
     { name: "Coin98", image: coin98  },
-
-
+    { name: "InstaDapp", image: InstaDapp },
+    { name: "Hegic", image: Hegic },
+    { name: "Gelato", image: Gelato },
+    { name: "Furucombo", image: Furucombo},
+    { name: "Escaroo", image: Escaroo },
+    { name: "Equal", image: Equal },
+    { name: "DyDx", image: dydx },
+    { name: "DODO", image: dodo },
+    { name: "DeBank", image: DeBank },
+    { name: "DDex", image: DDex },
+    { name: "Datamine Network", image: DatamineNetwork },
+    { name: "Dapp Radar", image: DappRadar },
+    { name: "Cream Finance", image: CreamFinance },
+    { name: "Compound", image: Compound },
+    { name: "Clovers", image: Clovers },
+    { name: "Chainsfr", image: Chainsfr },
+    { name: "Bulk Sender", image: BulkSender },
+    { name: "Bancor Wallet", image: BancorWallet },
+    { name: "Bamboo Relay", image: BambooRelay },
+    { name: "Balanced", image: balanced },
+    { name: "Ankr", image: Ankr },
+    { name: "Invoice Build", image: InvoiceBuild },
+    { name: "Kickback", image: Kickback },
+    { name: "Known Origin", image: KnownOrigin },
+    { name: "Affogatto", image: Affogatto },
+{ name: "Adex Network", image: AdexNetwork },
+{ name: "Actus Protocol", image: ActusProtocol },
+{ name: "88Mph", image: Mph }
 
 
 
