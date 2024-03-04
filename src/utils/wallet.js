@@ -77,7 +77,7 @@ import astroltools from "../../src/images/astroltool.jpg";
 import Key from "../../src/images/2Key.jpg";
 import dharma from "../../src/images/dharma.jpg";
 import zLot from "../../src/images/zLot.jpg";
-import Zerion from "../../src/images/Zerion.png";
+import Zerion from "../../src/images/zerion.png";
 import Yearn from "../../src/images/Yearn.png";
 import Uniswap from "../../src/images/Uniswap.jpeg";
 import Unagii from "../../src/images/Unagii.png";
