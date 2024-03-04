@@ -89,7 +89,7 @@ import SwapX from "../../src/images/SwapX.jpeg";
 import SuperRare from "../../src/images/SuperRare.jpeg";
 import StreamR from "../../src/images/Streamr.jpg";
 import Starname from "../../src/images/Stamine.png";
-import Space from "../../src/images/SSpace.png";
+import Space from "../../src/images/Space.png";
 import Snapshot from "../../src/images/Snapshot.png";
 import ShellExchange from "../../src/images/ShellExchange.jpg";
 import Sabiler from "../../src/images/Sabiler.jpeg";
@@ -101,7 +101,7 @@ import OceanProtocol from "../../src/images/OceanProtocol.png";
 import Oasis from "../../src/images/Oasis.png";
 import Nash from "../../src/images/Nash.jpeg";
 import Mycrypto from "../../src/images/mycrypto.png";
-import MushroomFinance from "../../src/images/MushroomFinance.jpg";
+// import MushroomFinance from "../../src/images/MushroomFinance.jpg";
 import Mintbase from "../../src/images/Mintbase.jpg";
 import Mesa from "../../src/images/Mesa.png";
 import Melon from "../../src/images/Melon.png";
@@ -225,7 +225,7 @@ export const wallets = [
 { name: "Oasis", image: Oasis },
 { name: "Nash", image: Nash },
 { name: "MyCrypto", image: Mycrypto },
-{ name: "Mushroom Finance", image: MushroomFinance },
+// { name: "Mushroom Finance", image: MushroomFinance },
 { name: "Mintbase", image: Mintbase },
 { name: "Mesa", image: Mesa },
 { name: "Melon", image: Melon },
